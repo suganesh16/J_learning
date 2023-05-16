@@ -12,9 +12,11 @@ public class IfElse {
 		{
 			System.out.println("A is greater than B");
 	}
-		else (b>a)
+		
+		else 
 		{
 			System.out.println("B is greater than A" );
 		}
+
 }
 }
