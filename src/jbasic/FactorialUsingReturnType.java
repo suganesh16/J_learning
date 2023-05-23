@@ -18,11 +18,11 @@ public class FactorialUsingReturnType {
 	public static void main(String args[])
 	{
 		FactorialUsingReturnType obj1= new FactorialUsingReturnType();
-		long result=obj1.factorial(9);
+		int result=obj1.factorial(9);
 		System.out.println("The factorial value is "+result);
 		
 		FactorialUsingReturnType obj2= new FactorialUsingReturnType();
-		long result1=obj2.factorial(21);
+		int result1=obj2.factorial(11);
 		System.out.println("The factorial value is "+result1);
 
 
