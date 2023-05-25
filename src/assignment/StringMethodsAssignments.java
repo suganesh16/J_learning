@@ -7,7 +7,7 @@ public class StringMethodsAssignments {
 		
 		String s0= "Learning";
 		
-		//concat
+		//concat(string s0)
 		s0=s0.concat(" basic in java");
 		System.out.println(s0);
 		
@@ -19,22 +19,27 @@ public class StringMethodsAssignments {
 		String s2=s1.toLowerCase();
 		System.out.println(s2);
 		
-		//
+		//charAt(int index)
 		char s3=s2.charAt(6);
 		System.out.println(s3);
 		
+		//replace(char oldChar, char newChar)
 		String s4=s0.replace("b","B");
 		System.out.println(s4);
 		
+		//replace(char oldChar, char newChar)
 		String s5=s0.replace("in","at");
 		System.out.println(s5);
 		
+		//contains(s0)
 		boolean s6=s0.contains("in");
 		System.out.println(s6);
 		
+		//contains(s0)
 		boolean s7=s0.contains("at");
 		System.out.println(s7);
 		
+		//
 		String s8="";
 		boolean emptyString= s8.isEmpty();
 		System.out.println(emptyString);
@@ -69,6 +74,8 @@ public class StringMethodsAssignments {
 		boolean s15=s0.endsWith("java");
 		System.out.println(s15);
 		
+		String[] s16=s0.split("-");
+		System.out.println(s16);
 		
 		
 		
