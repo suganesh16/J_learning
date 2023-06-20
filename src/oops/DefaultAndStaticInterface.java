@@ -33,6 +33,7 @@ public class DefaultAndStaticInterface  implements BikeColor{
 		obj.getBikeColor();
 		BikeColor.setColor();
 		
+		
 	}
 
 	
