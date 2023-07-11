@@ -39,13 +39,13 @@ public class ArrayListEx {
 				System.out.println("After adding element at index 2-->"+a1);
 				
 				
-				a1.get(0);
-				System.out.println("After using get element at index 0-->"+a1);
+				//a1.get(0);
+				System.out.println("After using get element at index 0-->"+a1.get(0));
 				
 				a1.set(1, "python");
 				System.out.println("After replacing the value at index 1-->"+a1);
 				
-				a1.contains("C++");
+				//a1.contains("C++");
 				System.out.println(a1.contains("pascal"));
 				
 				System.out.println(a1.isEmpty()); 
