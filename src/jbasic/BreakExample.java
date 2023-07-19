@@ -6,7 +6,7 @@ public class BreakExample {
 
 		for (int j=2; j<10; j++)
 		{
-			if(j==6)
+			if(j==9)
 			{
 				break;
 			}

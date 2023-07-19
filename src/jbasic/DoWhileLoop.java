@@ -8,7 +8,7 @@ public class DoWhileLoop {
 		     //{
 		     //
 		    //}while(condition)
-          int i=6;
+          int i=1;
 		
 		do
 		{
